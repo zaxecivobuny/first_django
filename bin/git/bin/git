@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/zaxecivobuny/first_django/bin/scripts/setenv.sh
+
+exec /Users/zaxecivobuny/first_django/bin/git/bin/.origin/git "$@"

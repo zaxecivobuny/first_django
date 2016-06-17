@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/zaxecivobuny/first_django/bin/apache2/bin/envvars
+exec /Users/zaxecivobuny/first_django/bin/apache2/bin/httxt2dbm.bin "$@"

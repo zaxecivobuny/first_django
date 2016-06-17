@@ -1,0 +1,11 @@
+
+if [[ -s "/Users/zaxecivobuny/first_django/bin/python/bin/virtualenvwrapper.sh" ]]; then  
+   export WORKON_HOME="/Users/zaxecivobuny/first_django/bin/python/.virtualenvs"
+   source "/Users/zaxecivobuny/first_django/bin/python/bin/virtualenvwrapper.sh" 
+fi
+
+
+if [ "$BASH" != "" -a -s "/Users/zaxecivobuny/first_django/bin/git/scripts/git-completion.bash" ]; then  
+   . "/Users/zaxecivobuny/first_django/bin/git/scripts/git-completion.bash" 
+fi
+GIT_PS1_SHOWDIRTYSTATE=true

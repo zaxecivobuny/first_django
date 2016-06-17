@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/zaxecivobuny/first_django/bin/postgresql/bin/setenv.sh
+exec /Users/zaxecivobuny/first_django/bin/postgresql/bin/gdal_translate.bin "$@"

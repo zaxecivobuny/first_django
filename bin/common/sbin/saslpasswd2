@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/zaxecivobuny/first_django/bin/scripts/setenv.sh
+SASL_PATH="/Users/zaxecivobuny/first_django/bin/common/lib/sasl2"
+                export SASL_PATH
+exec /Users/zaxecivobuny/first_django/bin/common/sbin/.saslpasswd2.bin -f "/Users/zaxecivobuny/first_django/bin/common/etc/sasldb2" "$@"

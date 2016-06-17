@@ -1,0 +1,4 @@
+#!/Users/zaxecivobuny/first_django/bin/python/bin/python
+# EASY-INSTALL-SCRIPT: 'boto==2.6.0','s3multiput'
+__requires__ = 'boto==2.6.0'
+__import__('pkg_resources').run_script('boto==2.6.0', 's3multiput')

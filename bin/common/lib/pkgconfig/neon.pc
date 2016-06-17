@@ -1,0 +1,11 @@
+prefix=/Users/zaxecivobuny/first_django/bin/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: neon
+Description: HTTP/WebDAV client library
+Version: 0.30.1
+Libs: -L${libdir} -lneon 
+Libs.private: -lintl -lssl -lcrypto  -lz -lexpat
+Cflags: -I${includedir}/neon 
