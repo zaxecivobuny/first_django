@@ -1,8 +1,0 @@
-#!/bin/sh
-
-PATH="/Users/zaxecivobuny/first_django/bin/nodejs/bin:/Users/zaxecivobuny/first_django/bin/apps/django/bin:/Users/zaxecivobuny/first_django/bin/git/bin:/Users/zaxecivobuny/first_django/bin/python/bin:/Users/zaxecivobuny/first_django/bin/postgresql/bin:/Users/zaxecivobuny/first_django/bin/mysql/bin:/Users/zaxecivobuny/first_django/bin/sqlite/bin:/Users/zaxecivobuny/first_django/bin/subversion/bin:/Users/zaxecivobuny/first_django/bin/apache2/bin:/Users/zaxecivobuny/first_django/bin/common/bin:$PATH"
-BITNAMI_ROOT="/Users/zaxecivobuny/first_django/bin"
-export BITNAMI_ROOT
-
-exec bash --rcfile "/Users/zaxecivobuny/first_django/bin/.bitnamirc"
-                    
