@@ -4277,7 +4277,7 @@ def svn_config_has_section(*args):
   return _core.svn_config_has_section(*args)
 
 def svn_config_find_group(*args):
-  """svn_config_find_group(svn_config_t * cfg, char const * key, char const * master_section, apr_pool_t pool) -> char const *"""
+  """svn_config_find_group(svn_config_t * cfg, char const * key, char const * main_section, apr_pool_t pool) -> char const *"""
   return _core.svn_config_find_group(*args)
 
 def svn_config_get_server_setting(*args):
